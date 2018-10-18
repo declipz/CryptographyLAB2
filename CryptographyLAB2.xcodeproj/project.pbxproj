@@ -11,6 +11,10 @@
 		D6D85CF92178B658003CC578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D85CF82178B658003CC578 /* ViewController.swift */; };
 		D6D85CFB2178B65B003CC578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6D85CFA2178B65B003CC578 /* Assets.xcassets */; };
 		D6D85CFE2178B65B003CC578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D85CFC2178B65B003CC578 /* Main.storyboard */; };
+		D6D85D072178BB80003CC578 /* Character+Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D85D062178BB80003CC578 /* Character+Code.swift */; };
+		D6D85D092178BBA8003CC578 /* DialogWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D85D082178BBA8003CC578 /* DialogWindow.swift */; };
+		D6D85D0B2178BBEF003CC578 /* Int+MutuallyPrimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D85D0A2178BBEF003CC578 /* Int+MutuallyPrimal.swift */; };
+		D6D85D0D2178BC28003CC578 /* Encrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D85D0C2178BC28003CC578 /* Encrypter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +25,10 @@
 		D6D85CFD2178B65B003CC578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D6D85CFF2178B65B003CC578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6D85D002178B65B003CC578 /* CryptographyLAB2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptographyLAB2.entitlements; sourceTree = "<group>"; };
+		D6D85D062178BB80003CC578 /* Character+Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Character+Code.swift"; sourceTree = "<group>"; };
+		D6D85D082178BBA8003CC578 /* DialogWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialogWindow.swift; sourceTree = "<group>"; };
+		D6D85D0A2178BBEF003CC578 /* Int+MutuallyPrimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+MutuallyPrimal.swift"; sourceTree = "<group>"; };
+		D6D85D0C2178BC28003CC578 /* Encrypter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encrypter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				D6D85CFC2178B65B003CC578 /* Main.storyboard */,
 				D6D85CFF2178B65B003CC578 /* Info.plist */,
 				D6D85D002178B65B003CC578 /* CryptographyLAB2.entitlements */,
+				D6D85D062178BB80003CC578 /* Character+Code.swift */,
+				D6D85D082178BBA8003CC578 /* DialogWindow.swift */,
+				D6D85D0A2178BBEF003CC578 /* Int+MutuallyPrimal.swift */,
+				D6D85D0C2178BC28003CC578 /* Encrypter.swift */,
 			);
 			path = CryptographyLAB2;
 			sourceTree = "<group>";
@@ -133,6 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6D85D0D2178BC28003CC578 /* Encrypter.swift in Sources */,
+				D6D85D0B2178BBEF003CC578 /* Int+MutuallyPrimal.swift in Sources */,
+				D6D85D072178BB80003CC578 /* Character+Code.swift in Sources */,
+				D6D85D092178BBA8003CC578 /* DialogWindow.swift in Sources */,
 				D6D85CF92178B658003CC578 /* ViewController.swift in Sources */,
 				D6D85CF72178B658003CC578 /* AppDelegate.swift in Sources */,
 			);
